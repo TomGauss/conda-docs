@@ -108,10 +108,10 @@ Creating an environment from an environment.yml file
 Use the Terminal or an Anaconda Prompt for the following steps.
 
 #. Create the environment from the ``environment.yml`` file:
-
+#. First you need a new enviroment.yml (put in path "C:\Users\#username#") file from others or manually created. 
    .. code::
 
-      conda env create -f environment.yml
+      conda env create -n myenv -f environment.yml
 
 #. Activate the new environment:
 
